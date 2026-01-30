@@ -1,0 +1,124 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.container2{
+    margin-bottom: 50px;
+
+
+}
+
+/* HEADER */
+.hero {
+    background-image: url("../cabana.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: white; /* Color del relleno de la letra */
+    -webkit-text-stroke-width: 2px; /* Grosor del borde */
+    -webkit-text-stroke-color: black; /* Color del borde */
+}
+
+.hero-content p {
+    color: white; /* Color del relleno de la letra */
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    background-color: #1c5675;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* MENÚ DESTACADO */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* EXPERIENCIA / VALORES */
+.experience {
+    background-color: #eaf6fb;
+    padding: 80px 20px;
+}
+
+.experience-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+}
+
+.experience-item {
+    flex: 1;
+}
+
+.experience-item img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #3b1d0f;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+/* FOOTER */
+footer {
+    background: #222;
+    color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+}
